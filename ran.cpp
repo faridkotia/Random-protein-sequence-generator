@@ -6,7 +6,7 @@ int main() {
     vector<string> aa = {"leu", "lys", "met", "phe", "pro", "ser", "thr", "trp", "tyr", "val", "ala", "arg", "asn", "asp", "cys", "gln", "glu", "gly", "his", "ile"};
 
     int n;
-    cout << "Enter the number of amino acids to list: ";
+    cout << "Enter the number of amino acids: ";
     cin >> n;
 
     // Open the .rib file for writing
