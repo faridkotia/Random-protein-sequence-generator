@@ -65,7 +65,7 @@ int main() {
     // Close the .rib file
     outFile.close();
     }
-    cout << "Amino acids listed in output.rib" <<endl;
+    cout << "Protein sequence listed in 'rib_files' folder and 'PDB_files' folder" <<endl;
 
     return 0;
 }
