@@ -4,13 +4,11 @@ This C++ program generates a sample command file (.rib) that constructs a peptid
 
 ## Usage:
 
-1. **Compile the Program:** Ensure a C++ compiler is installed. Make a directory named "rib files" if not already present. Compile the program using the compiler of your choice.
+1. **Compile the Program:** Ensure a C++ compiler is installed. Compile the program using the compiler of your choice.
 
 2. **Run the Executable:** Execute the compiled program. Follow the prompts to input the desired number of proteins and then desired number of amino acids for all peptide sequence.
 
-3. **Output Generation:** Upon completion of the program, locate the generated .rib files in the directory "rib files".
-
-4. **Convert to PDB:** Utilize builder tools like Ribosome to convert the generated .rib file to a .pdb file for further analysis and visualization.
+3. **Output Generation:** Upon completion of the program, locate the generated .rib files in the directory "rib files" and .pdb files in the directory "PDB_files"
 
 ## Notes:
 - **Tool Dependencies:** Ensure that Ribosome tool `ribosome` and `res.zmat` file are correctly aligned in the program's path for successful conversion to .pdb format.
