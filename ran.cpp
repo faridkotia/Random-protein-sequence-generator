@@ -5,13 +5,20 @@ using namespace std;
 int main() {
     vector<string> aa = {"leu", "lys", "met", "phe", "pro", "ser", "thr", "trp", "tyr", "val", "ala", "arg", "asn", "asp", "cys", "gln", "glu", "gly", "his", "ile"};
 
+    int m;
     int n;
+    // Input for number of protein sequence
+    cout<<"Enter the number of random protein files: ";
+    cin >> m;
+    // Input for number of amino acids in each protein sequence
     cout << "Enter the number of amino acids: ";
     cin >> n;
-
-    // Open the .rib file for writing
-    ofstream outFile("output.rib");
-
+    for (int i = 0; i <m; i++)
+    {   
+        // Open the .rib file for writing
+        string file="output"+to_string(i+1)+".rib";
+        ofstream outFile("rib_files/"+file);
+    
     // Seed for random number generation
     random_device rd;
     mt19937 gen(rd());
@@ -57,7 +64,7 @@ int main() {
 
     // Close the .rib file
     outFile.close();
-
+    }
     cout << "Amino acids listed in output.rib" <<endl;
 
     return 0;
