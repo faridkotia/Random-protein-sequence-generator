@@ -8,7 +8,7 @@ This C++ program generates sample command files (.rib) and (.pdb) that construct
 - fortran installed 
 - A Linux operating system
 
-2. **Compile the Program:** Nvigate to the main directory and run the following commands:
+2. **Compile the Program:** Navigate to the main directory and run the following commands:
 - chmod +x comp.sh
 - ./comp.sh
 
